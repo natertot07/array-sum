@@ -1,0 +1,23 @@
+package main
+
+import "fmt"
+
+func main() {
+	sum()
+}
+
+func sum() {
+	var numbers [10]int
+	numbers[0] = 42
+	numbers[1] = 3
+	numbers[2] = 108
+	numbers[3] = 59
+	numbers[4] = 23
+	numbers[5] = 999
+	numbers[6] = 420
+	numbers[7] = 69
+	numbers[8] = 54
+	numbers[9] = 121
+	total := numbers[0] + numbers[1] + numbers[2] + numbers[3] + numbers[4] + numbers[5] + numbers[6] + numbers[7] + numbers[8] + numbers[9]
+	fmt.Println(total)
+}
